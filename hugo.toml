@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
-title = "My New Hugo Site"
+title = "Hi this is Pedro! 👋"
 
 theme = "gokarna"
 
@@ -35,12 +35,18 @@ enableGitInfo = true
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
     weight = 2
     
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/phgelado"
-    weight = 3
+    weight = 4
     
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
@@ -53,7 +59,7 @@ enableGitInfo = true
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "Sky above, sand below & peace within"
+  description = "I work deploying AI systems to tackle complex problems."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
@@ -83,4 +89,11 @@ enableGitInfo = true
   dateFormat = "January 2, 2006"
 
   # Footer text
-  footer = "The Marauders"
+  footer = "Pedro Hernandez Gelado"
+
+  socialIcons = [
+    {name = "linkedin", url = "https://www.linkedin.com/in/phgelado/"},
+    {name = "stackoverflow", url = "https://stackoverflow.com/users/23576190/pedro-hernandez-gelado"},
+    {name = "youtube", url = "https://www.youtube.com/@periquitopedro"},
+    {name = "twitter", url = "https://x.com/phgelado"},
+  ]
