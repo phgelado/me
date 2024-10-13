@@ -39,7 +39,7 @@ enableGitInfo = true
     
   [[menu.main]]
     identifier = "github"
-    url = "https://github.com"
+    url = "https://github.com/phgelado"
     weight = 3
     
     # We use feather-icons: https://feathericons.com/
