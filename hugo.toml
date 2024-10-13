@@ -1,4 +1,4 @@
-baseURL = "https://phgelado.com/me/"
+baseURL = "https://phgelado.com/me"
 defaultContentLanguage = "en"
 languageCode = "en"
 
@@ -59,7 +59,7 @@ enableGitInfo = true
   avatarSize = "size-m"
 
   # Description to display on homepage
-  description = "I work deploying AI systems to tackle complex problems."
+  description = "I work deploying machine learning systems to tackle complex problems."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
