@@ -1,4 +1,4 @@
-baseURL = "https://phgelado.com/me"
+baseURL = "https://phgelado.com/me/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
@@ -53,7 +53,7 @@ enableGitInfo = true
 
 [params]
   # URL for the avatar on homepage
-  avatarURL = "me/images/avatar.png"
+  avatarURL = "/images/avatar.png"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = "size-m"
